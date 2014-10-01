@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Brittanay Clarke - 620054006
+	Resume Css file
+*/
+
+body { 
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	background-color: #E9E1E4;
+}
+
+tr{padding-bottom:500px;}
+
+table{
+	margin-top:-5px; 
+	margin-left:25%; 
+	width:80%;
+}
+
+.spacer{height:5em;}
+
+#pic { 
+	position: absolute; 
+	float: right; 
+	margin: -30px 0 0 0;
+}
+
+.space-creation {margin-top:-90px;}
+
+.vert-line{
+	border-left: thin solid #999; 
+	padding-left:2em;
+}
+
+.circular{
+	width: 350px;
+	height: 450px;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	background: url(https://31.media.tumblr.com/511472787281c61e4b0261e5bef1cf47/tumblr_ncmu7af9Sf1rwc2eto1_400.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);	
+}
+
+.circular img{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+}
+
+.para{
+    margin-top: 50px;
+	margin-left: 400px;
+    width:50%;
+}
+
+.headInfo{
+	margin-top: -400px;
+	margin-left: 400px;
+}
+
+h1 {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+
+h2 { 
+	font-size: 20px;
+	margin: 0 0 6px 0;
+	position: relative;
+}
+
+h2 span {
+	position: absolute;
+	bottom: 0; 
+	right: 0; 
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	color: #999;
+	font-weight: normal;
+}
+
+footer{
+	background-color: #E90C5D;
+	bottom: auto;
+	width: 100%;
+	min-height: 100px;
+	top: 685px;
+	vertical-align: baseline;
+	display: block;
+}
